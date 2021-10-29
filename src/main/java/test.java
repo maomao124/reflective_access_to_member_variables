@@ -9,7 +9,20 @@ import java.lang.reflect.Field;
  * Date(创建日期)： 2021/10/29
  * Time(创建时间)： 16:51
  * Version(版本): 1.0
- * Description(描述)： 无
+ * Description(描述)：
+ * 方法名称	说明
+ * getName()	获得该成员变量的名称
+ * getType()	获取表示该成员变量的 Class 对象
+ * get(Object obj)	获得指定对象 obj 中成员变量的值，返回值为 Object 类型
+ * set(Object obj, Object value)	将指定对象 obj 中成员变量的值设置为 value
+ * getlnt(0bject obj)	获得指定对象 obj 中成员类型为 int 的成员变量的值
+ * setlnt(0bject obj, int i)	将指定对象 obj 中成员变量的值设置为 i
+ * setFloat(Object obj, float f)	将指定对象 obj 中成员变量的值设置为 f
+ * getBoolean(Object obj)	获得指定对象 obj 中成员类型为 boolean 的成员变量的值
+ * setBoolean(Object obj, boolean b)	将指定对象 obj 中成员变量的值设置为 b
+ * getFloat(Object obj)	获得指定对象 obj 中成员类型为 float 的成员变量的值
+ * setAccessible(boolean flag)	此方法可以设置是否忽略权限直接访问 private 等私有权限的成员变量
+ * getModifiers()	获得可以解析出该方法所采用修饰符的整数
  */
 
 public class test
